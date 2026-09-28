@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IT Student Hub</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <button id="menuBtn" class="icon-btn" aria-label="Mở menu">☰</button>
+  <a class="brand" href="#home">IT<span>Student</span></a>
+  <div id="authArea"></div>
+</header>
+
+<aside id="sidebar" class="sidebar">
+  <div class="side-title">IT Student</div>
+  <button data-page="home">⌂ Trang chủ</button>
+  <button data-page="leaderboard">🏆 BXH</button>
+  <button data-page="quiz">📝 TRẮC NGHIỆM</button>
+  <button data-page="about">ℹ Giới thiệu</button>
+  <button data-page="languages">💻 Ngôn ngữ lập trình</button>
+</aside>
+<div id="overlay" class="overlay"></div>
+
+<main id="app"></main>
+
+<div id="modalRoot"></div>
+<div id="toast"></div>
+<script src="/js/app.js"></script>
+</body>
+</html>

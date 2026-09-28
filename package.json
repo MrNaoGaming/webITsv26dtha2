@@ -1,0 +1,17 @@
+{
+  "name": "it-student-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website học tập Công nghệ thông tin cho sinh viên",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.7.0",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
